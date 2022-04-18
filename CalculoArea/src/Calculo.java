@@ -13,5 +13,7 @@ public class Calculo {
 		 
 		 System.out.println("Digite a largura da figura");
 		 int = scanner.nextInt();
+	}
+	
 	}		
 }
