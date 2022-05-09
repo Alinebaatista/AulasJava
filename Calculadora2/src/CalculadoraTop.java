@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class CalculadoraTop {
 
 	public static void main(String[] args) {
-		
 	int n1;
 	int n2;
 	
@@ -49,5 +48,3 @@ public class CalculadoraTop {
 	}
 
 }
-
-

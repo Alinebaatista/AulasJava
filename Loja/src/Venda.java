@@ -12,7 +12,8 @@ public class Venda {
 		System.out.println("O Total da compra foi de  " + total);
 		System.out.println("Com desconto o valor ficará " + desc);
 		 
-
+	
+				
 	}
 
 }
