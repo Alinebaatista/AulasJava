@@ -11,9 +11,9 @@ public class main {
 //		int a = 0;
 //		double b = 0;
 //		
-//		a= (int) y; //Casting Explícito, Você dizer para o eclipseque assume a responsabilidade por perder informação.
-//		b= x; //Casting(escalação) implícito, consegur passar o conteudo de uma variável para outra sem perder nenhum dado.
-//		//Aqui você não perderá informação,
+//		a= (int) y; //Casting ExplÃ­cito, VocÃª dizer para o eclipseque assume a responsabilidade por perder informaÃ§Ã£o.
+//		b= x; //Casting(escalaÃ§Ã£o) implÃ­cito, consegur passar o conteudo de uma variÃ¡vel para outra sem perder nenhum dado.
+//		//Aqui vocÃª nÃ£o perderÃ¡ informaÃ§Ã£o,
 //		
 //		System.out.println(z);
 //		System.out.println(b);
@@ -23,18 +23,18 @@ public class main {
 //		
 //		if (idadepessoa < 18) {
 //			
-//		System.out.println("Você não pode beber");
+//		System.out.println("VocÃª nÃ£o pode beber");
 //		}
 //			
 //		
-//		else if(idadepessoa < 60) { //Pode fazer quantas condições quiser
+//		else if(idadepessoa < 60) { //Pode fazer quantas condiÃ§Ãµes quiser
 //			System.out.println("Bora tomar uma!");
 //		}
 //		else {
-//			System.out.println("Quanto é a aposentadoria?");
+//			System.out.println("Quanto Ã© a aposentadoria?");
 //		}
 //		
-//		System.out.println("Você tem " + idadepessoa + " anos");
+//		System.out.println("VocÃª tem " + idadepessoa + " anos");
 //		
 		
 //		int num = 8;
@@ -42,13 +42,13 @@ public class main {
 //		switch (num) {
 //			
 //		case 1:
-//			System.out.println("Domingo"); //O break é aquele que vai barrar 
+//			System.out.println("Domingo"); //O break Ã© aquele que vai barrar 
 //			break;
 //		case 2:
 //			System.out.println("Segunda-feira");
 //			break;
 //		case 3:
-//			System.out.println("Terça-feira");
+//			System.out.println("TerÃ§a-feira");
 //			break;
 //		case 4:
 //			System.out.println("Quarta-feira");
@@ -57,46 +57,46 @@ public class main {
 //			System.out.println("Quinta-feira");	
 //			break;
 //		default:		 //Funciona como um else, caso nenhum dos casos for encontrados
-//			System.out.println("Esse número não representa um dia da semana.");
+//			System.out.println("Esse nÃºmero nÃ£o representa um dia da semana.");
 //		}
 		
 		
-//		char caractere = 'a';		//String é um conjunto de caractere //Caso você coloque outro valor além do declarado para variável, vai dar erro.
+//		char caractere = 'a';		//String Ã© um conjunto de caractere //Caso vocÃª coloque outro valor alÃ©m do declarado para variÃ¡vel, vai dar erro.
 //		
 //		switch (caractere) {
 //			case 'a':
-//				System.out.println("Seu caractere é a ");
+//				System.out.println("Seu caractere Ã© a ");
 //				break;
 //			case 'b':
-//				System.out.println("Seu caractere é b ");
+//				System.out.println("Seu caractere Ã© b ");
 //				break;
 //			default:
-//			System.out.println("Valor inválido");
+//			System.out.println("Valor invÃ¡lido");
 //		
 //		
 //		}
 		
 //		String farol = "verde";
 //		
-//		 switch (farol) { //switch é o ESCOLHA CASO
+//		 switch (farol) { //switch Ã© o ESCOLHA CASO
 //		 
 //		 case "verde":
 //			 System.out.println("ACELERA");
 //			 break;
 //		 case "amarelo":
-//			 System.out.println("Calma e atenção");
+//			 System.out.println("Calma e atenÃ§Ã£o");
 //			 break;
 //		 case "vermelho":
 //			 System.out.println("Pare!");	 
 //			 break;
 //		default:
-//			System.out.println("Valor inválido!");
+//			System.out.println("Valor invÃ¡lido!");
 //		 
 //		 }
 		
 		
 //		int x=0;
-//		while(x<10) { //Tudo que retornar verdadeiro ou falso é possível ser colocado / //While é o ENQUANTO
+//		while(x<10) { //Tudo que retornar verdadeiro ou falso Ã© possÃ­vel ser colocado / //While Ã© o ENQUANTO
 //			 System.out.println(x); //Testa primeiro e depois faz
 //			 x = x+1; //x ++; 	
 //		}
@@ -112,15 +112,15 @@ public class main {
 		Scanner entrada = new Scanner(system)
 		 
 		 
-//		for(int x=0; x<10; x++) { // se você criar a variável aqui dentro, ela só existe aqui dentro
+//		for(int x=0; x<10; x++) { // se vocÃª criar a variÃ¡vel aqui dentro, ela sÃ³ existe aqui dentro
 //			System.out.println(x); //""Conte de 0 a 10""
 //		}
-		// x++ Significa: "Pega o valor que está aqui dentro, adiciona 1" | "se quiser adicionar mais é x+=2" funciona também com * (multiplicar)
-		// | 1= valor da variável | 2= valor condicional | 3= incremento|
+		// x++ Significa: "Pega o valor que estÃ¡ aqui dentro, adiciona 1" | "se quiser adicionar mais Ã© x+=2" funciona tambÃ©m com * (multiplicar)
+		// | 1= valor da variÃ¡vel | 2= valor condicional | 3= incremento|
 		
 		Scanner a = new Scanner(System.in);
 		
-		System.out.println("Digte o número da tabuada que você deseja:");
+		System.out.println("Digte o nÃºmero da tabuada que vocÃª deseja:");
 		 int x = a.nextInt();
 		
 		
@@ -131,6 +131,57 @@ public class main {
 		
 		
 	}	
+	
+		// ARRAY = tabela
+		int x1 = 3;
+		int z1 = 6;
+		int y1 = 10;
+		int m1 = 15;
+
+		System.out.println(x1);
+		System.out.println(y1);
+		System.out.println(z1);
+		System.out.println(m1);
+
+		double x[] = { 3, 6, 10, 15 };
+
+		for (int aux = 0; aux < x.length; aux++) {
+			System.out.println("Valor do Indice " + aux + " = " + x[aux]);
+		}
+
+		String nome[] = { "Aline", "Mariana", "Willian" };
+
+		for (int aux = 0; aux < nome.length; aux++) {
+			System.out.println(nome[aux]);
+			if (nome[aux] == "Willian")
+				;
+			System.out.println("O indice do willain Ã© " + aux);
+		}
+
+	
+
+	int[] arrayInt = new int[5];
+	String[] arrayString = new String[4];
+	double[] arraydouble = new double [3];
+
+	arrayInt[3]=4;
+
+	int[] numero = new int[6];
+	Scanner teclado = new Scanner(System.in);
+
+	for(int aux1 = 0;aux1<numero.length;aux1++)
+	{
+		System.out.println("Digite um nÃºmero qualquer ");
+		numero[aux1] = teclado.nextInt();
+
+	}
+	for(int aux2 = 0;aux2<numero.length;aux2++)
+	{
+		System.out.println("Indice" + aux2 + "=" + numero[aux2]);
+	}
+
+}}
+
 		
 		
 		
