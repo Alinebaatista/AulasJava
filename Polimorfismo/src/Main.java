@@ -1,9 +1,10 @@
 
+//Polomorfismo (muitas formas) √© quando o objeto se comporta de varias formas diferentes conforme a mensagem
 public class Main {
 
 	public static void main(String[] args) {
 
-		Animal animal = new Cachorro(); // polimorfismo: È possÌvel criar uma inst‚ncia de cachorro a partir da
+		Animal animal = new Cachorro(); // polimorfismo: √© poss√≠vel criar uma inst√¢ncia de cachorro a partir da
 										// superclasse que ela extende/herda.
 
 		// animal.falar();
