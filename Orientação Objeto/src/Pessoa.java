@@ -7,11 +7,11 @@ public class Pessoa {
 	 this.numFigurinhas  += numFigurinhas;
 			 
 }
- 
+                       //Parametros
  	boolean dar(int numFigurinhas,Pessoa pessoa) {
  		
  		if(this.numFigurinhas<numFigurinhas)
- 		System.out.println("A quantidade de figurinhas não são suficientes!");
+ 		System.out.println("A quantidade de figurinhas nÃ£o sÃ£o suficientes!");
  		return false;
  	}
  	
