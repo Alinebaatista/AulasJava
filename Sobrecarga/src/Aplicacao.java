@@ -1,3 +1,5 @@
+
+// Sobrecarga de metodos
 import java.util.Scanner;
 
 public class Aplicacao {
@@ -16,13 +18,13 @@ public class Aplicacao {
 		 
 		 
 		int soma = matematica.somar(x, y);			
-		System.out.println("O resultado da soma é "+ soma );	
+		System.out.println("O resultado da soma Ã© "+ soma );	
 			
 		soma = matematica.somar(x , y , 5);
-		System.out.println("O resultado da soma é "+ soma );	
+		System.out.println("O resultado da soma Ã© "+ soma );	
 		   
 		double soma2 = matematica.somar(y,x);
-		System.out.println("O resultado da soma é "+ soma2 );	
+		System.out.println("O resultado da soma Ã© "+ soma2 );	
 		   
 	}
 
