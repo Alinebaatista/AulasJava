@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//importar para o usuario conseguir digitar o que se pede
 
 public class CalculadoraTop {
 
@@ -11,7 +11,7 @@ public class CalculadoraTop {
 	
 	Scanner entrada = new Scanner(System.in);
 	
-	System.out.println("Digite a operaÁ„o desejada (+ , -, *, /): ");
+	System.out.println("Digite a opera√ß√£o desejada (+ , -, *, /): ");
 	op= entrada.nextLine();//proxima linha //
 	
 	System.out.println("Digite um valor :");
@@ -21,27 +21,27 @@ public class CalculadoraTop {
 	n2 = Integer.parseInt(entrada.nextLine());//passando string para inteiro//
 	
 		if(op.equals("+")) {
-		System.out.println("O resutado da soma È: " + (n1 + n2));
+		System.out.println("O resutado da soma √©: " + (n1 + n2));
 		control++;
 		}
 	
 		if(op.equals("-")) {
-			System.out.println("O resultado da subtraÁ„o È:" +(n1 - n2 ));
+			System.out.println("O resultado da subtra√ß√£o √©:" +(n1 - n2 ));
 			control++;
 		}
 	
 		if(op.equals("/")) {
-				System.out.println("O resutado da divis„o È: " + (n1 / n2));
+				System.out.println("O resutado da divis√£o √©: " + (n1 / n2));
 				control++;
 		}
 			
 		if(op.equals("*")) {
-				System.out.println("O resutado da multiplicaÁ„o È: " + (n1 * n2));
+				System.out.println("O resutado da multiplica√ß√£o √©: " + (n1 * n2));
 				control++;
 		}
 	
 	if(control == 0) {
-	System.out.println("OperaÁ„o invalida,  Tente Novamente!");
+	System.out.println("Opera√ß√£o invalida,  Tente Novamente!");
 	
 	}
 
