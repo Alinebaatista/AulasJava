@@ -132,7 +132,8 @@ public class main {
 		
 	}	
 	
-		// ARRAY = tabela
+		// ARRAY Matreix = tabela
+	//
 		int x1 = 3;
 		int z1 = 6;
 		int y1 = 10;
