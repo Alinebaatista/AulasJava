@@ -1,7 +1,7 @@
 
-public class Cogumelo extends Item {
+public class Cogumelo extends Item // extender a classe da super classe abistrata{
 
-	@Override
+	@Override// subescrever o metodo da superclasse
 	public void pegar() {
 		System.out.println("Pegou Cogumelo");
 	}
