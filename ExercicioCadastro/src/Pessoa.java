@@ -1,7 +1,18 @@
 
-public class Pessoa {
+public class Pessoa  {
+
 	private String Nome;
 	private int Idade;
-	private Endereco endereco;
+
+	Endereco endereco;
+
+	private enum SEXO {
+		MASCULINO, FEMININO;
 	
+
+	}
+
+	SEXO sexo = SEXO.FEMININO;
+	SEXO sexo1 = SEXO.MASCULINO;
+
 }

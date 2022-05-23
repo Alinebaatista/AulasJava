@@ -4,5 +4,6 @@ public class Endereco {
 	String Bairro;
 	int numero;
 	
+	
 
 }
