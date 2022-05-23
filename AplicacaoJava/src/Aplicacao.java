@@ -1,5 +1,6 @@
 
 public class Aplicacao {
+        //Classe estatica nâo precisa estanciar o objeto para acessar ela
 
 	public static void main(String[] args) {
 		//
