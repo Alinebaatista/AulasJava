@@ -4,7 +4,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		//
-		Data d1 = new Data (10,03,2000,0,30,10);
+		Data d1 = new Data (10,03,2000,0,30,10);//parametros
 		d1.imprimir (Data.Formato_12H);
 		d1.imprimir(Data.Formato_24H);
 		
