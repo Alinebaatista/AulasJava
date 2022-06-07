@@ -1,5 +1,5 @@
 
-public class Pessoa  {
+public class Pessoa {
 
 	private String nome;
 	private int idade;
@@ -22,13 +22,6 @@ public class Pessoa  {
 		this.nome = nome;
 	}
 
-	public Endereco getEndereco() {
-		return endereco;
-	}
-
-	public void setEndereco(Endereco endereco) {
-		this.endereco = endereco;
-	}
 
 	public int getIdade() {
 		return idade;
@@ -37,8 +30,6 @@ public class Pessoa  {
 	public void setIdade(int idade) {
 		this.idade = idade;
 
-		
-		
 	}
 
 	@Override
@@ -46,5 +37,6 @@ public class Pessoa  {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + ", endereco=" + endereco + ", sexo=" + sexo + "]";
 	}
 
-	
-}
+		
+	}
+
