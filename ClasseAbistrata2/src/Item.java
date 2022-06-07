@@ -8,11 +8,11 @@ public abstract class Item {
 
 	}
 
-	public int getPosX() {
+	public int getPosX() {// o método Get permite retornar os atributos.
 		return posX;
 	}
 
-	public void setPosX(int posX) {
+	public void setPosX(int posX) {//o método Set permite alterar.
 		this.posX = posX;
 	}
 
