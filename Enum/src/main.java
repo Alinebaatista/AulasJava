@@ -1,24 +1,24 @@
 
 public class main {
 	// final determina que ela vai ser constante
-	public static final double PI = 3.14;// Constantedo tipo primitivo
+	public static final double PI = 3.14;// Constante do tipo primitivo
 
 	public static void main(String[] args) {
 
 		double pi = main.PI;// acessar a constante
 		
-		//CriaÁ„o d e Enum na clsse principal
+		//Cria√ß√£o de Enum na classe principal
 		private enum  SEXO{
 			MASCULINO,FEMININO;
 		}
 
-		// nele sÛ È possÌvel adicionar o endereÁo do objeto
+		// nele s√≥ √© poss√≠vel adicionar o endere√ßo do objeto
 		DiaDaSemana hoje = DiaDaSemana.SEGUNDA;
 
 		int num = DiaDaSemana.SEGUNDA.getNum();
 		System.out.println(num);
 
-		// Convers„o de valores
+		// Convers√£o de valores
 		String s = "TERCA";
 		hoje = DiaDaSemana.valueOf(s);
 		System.out.println(hoje.getNum());
