@@ -1,0 +1,1 @@
+Cliente [valorPagarServico=0.0, servico=Servico [nome=Vistoria, qtdHorasServico=5.0, valorhoraServico=150.0, mecanico=Mecanico [MaoDeObra=685.0]], formaPag=CARTAO_CREDITO]
