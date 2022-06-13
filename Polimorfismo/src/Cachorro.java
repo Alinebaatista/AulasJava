@@ -1,7 +1,7 @@
 
 public class Cachorro extends Animal{
 
-	@Override
+	@Override  //subescrever
 	public void falar() {
 		System.out.println("Au! Au!");
 	}
