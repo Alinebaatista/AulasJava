@@ -1,5 +1,6 @@
 
-// Sobrecarga de metodos
+					// Sobrecarga de metodos 
+					// são a criação de mais de um método com o mesmo nome
 import java.util.Scanner;
 
 public class Aplicacao {
