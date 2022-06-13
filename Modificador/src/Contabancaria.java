@@ -1,11 +1,11 @@
 
 public class Contabancaria {
 
-	private int numConta;
+	private int numConta;// o modificador de acesso Private é mais restrito dos modificadores pois com ele só é possivel que a  a masma classe de criação ou atraves dos GETTERS ANS SETTRES tenham acesso a ela.  
 	private boolean ativo;
 	private double saldo;
 
-	public Contabancaria() {
+	public Contabancaria() {// o modificador de acesso Public é o menos restrito dos modificadores pois com ele é possivel que outras partes do programa tenham acesso a certa método ou atributo. 
 		ativo = true;
 		saldo = 1.0;
 	}
