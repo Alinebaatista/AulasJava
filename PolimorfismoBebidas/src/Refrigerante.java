@@ -1,12 +1,12 @@
 
 public class Refrigerante extends Bebida  {
 
-	public Refrigerante() {//construtor
+	public Refrigerante() {  //Construtor
 		super ("Refrigerante",false);
 		
 	}
 
-	@Override
+	@Override  //Sobrepor ou sub escrever
 	public void preparar() {
 		super.preparar();
 		System.out.println("colocando gelo");
