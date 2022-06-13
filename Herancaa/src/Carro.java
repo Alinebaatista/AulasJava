@@ -1,5 +1,5 @@
 
-public class Carro extends Veiculo {
+public class Carro extends Veiculo { //extends faz com que a classe herde os métodos da classe pai
 	private boolean quatroPortas;
 
 	@Override
