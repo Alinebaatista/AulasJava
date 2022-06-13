@@ -1,5 +1,7 @@
 
 public class Apilacao {
+	
+	// herança é quando uma classe (subclasse) herda alguns métodos de outra classe a Superclasse ou classe pai 
 
 	public static void main(String[] args) {
 		Veiculo veiculo = new Veiculo();
