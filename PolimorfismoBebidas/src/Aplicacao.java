@@ -3,7 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 
-		// metodos estaticos não precisam instanciar um objeto para acessar
+		// metodos estaticos não precisam instanciar um objeto para  ter acesso
 
 		Preparador preparador = new Preparador();
 
