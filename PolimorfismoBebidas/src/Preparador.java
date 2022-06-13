@@ -1,8 +1,8 @@
 
-public class Preparador {// Class de passagem normalmente n„o tem atributos.
+public class Preparador {       // Class de passagem normalmente n√£o tem atributos.
 
 	public static void prepararBebida(Bebida bebida) {
-		System.out.println("Preparando a Bebida!" + bebida.getNome());
+		System.out.println("Preparando a Bebida!" + bebida.getNome()); // mensagem mais tipo da bebida
 		System.out.println("Aguarde um momento!");
 	
 
@@ -12,7 +12,7 @@ public class Preparador {// Class de passagem normalmente n„o tem atributos.
 			System.out.println("Aquecendo a sua Bebida  " + bebida.getNome());
 
 		}
-		System.out.println("Sua Bebida est· Pronta!!\n");
+		System.out.println("Sua Bebida est√° Pronta!!\n");
 	}
 
 }
