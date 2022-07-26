@@ -7,58 +7,27 @@ public class ProgramaRevisao {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		Funcionario funcionario1 = new Funcionario("aline", "auxilar de produção", 17, 1000);
+		Funcionario funcionario1 = new Funcionario("aline", "auxilar de produção", 17, 1500);
 		Funcionario funcionario2 = new Funcionario("junior", "encaregado", 30, 1200);
 
-		System.out.println("Digite as informacoes dos Funcionarios que deseja Cadastrar!");
+		System.out.println("As informa��es do 1 Funcionario s�o:");
+		System.out.println("Nome:" + funcionario1.getNome());
+		System.out.println("Idade:" + funcionario1.getIdade());
+		System.out.println("Cargo:" + funcionario1.getCargo());
+		System.out.println("Salario:" + funcionario1.getSalario());
 
-		System.out.println("Digite o nome completo:");
-		funcionario1.getNome();
-		scanner.next();
+		System.out.println("-----------------------------------------------------");
 
-		System.out.println("Digite a idade:");
-		funcionario1.getIdade();
-		scanner.nextInt();
+		System.out.println("As informa��es do 2 Funcionario s�o:");
+		System.out.println("Nome:" + funcionario2.getNome());
+		System.out.println("Idade:" + funcionario2.getIdade());
+		System.out.println("Cargo:" + funcionario2.getCargo());
+		System.out.println("Salario:" + funcionario2.getSalario());
 
-		System.out.println("Digite o cargo em que o funcionario trabalha:");
-		funcionario1.getCargo();
-		scanner.next();
-
-		System.out.println("Digite o salario que o funcionario recebe:");
-		funcionario1.getSalario();
-		scanner.nextInt();
-
-		//
-		// INFORMAÇÃO DO 2 fUNCIONARIO
-		//
-
-		System.out.println(
-				"  --------------------------------------------------------------------------------------------  ");
-		System.out.println();
-
-		System.out.println("Digite as informacoes do 2  Funcionario que deseja Cadastrar!");
-
-		System.out.println("Digite o nome completo :");
-		funcionario2.getNome();
-		scanner.next();
-
-		System.out.println("Digite a idade:");
-		funcionario2.getIdade();
-		scanner.nextInt();
-
-		System.out.println("Digite o cargo em que o funcionario trabalha:");
-		funcionario2.getCargo();
-		scanner.nextLine();
-
-		System.out.println("Digite o salario que o funcionario recebe:");
-		funcionario2.getSalario();
-		scanner.nextInt();
-
-		System.out.println("A diferenca do salario do Funcionario 1 " + funcionario1.getNome()
-				+ " e o funcionario 2 e : " + funcionario2.getNome());
-
-		
+		System.out.println("A diferenca do salario do Funcionario 1 " + funcionario1.getNome() + " e o funcionario 2 "
+				+ funcionario2.getNome());
+		System.out.println(funcionario1.getSalario() - funcionario2.getSalario());
 
 	}
-
 }
+	
